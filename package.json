@@ -9,7 +9,7 @@
     "type": "git",
     "url": "git+https://github.com/TatianaNaumova5/awayTravel_Cypress_project.git"
   },
-  "author": "Tatiana Naumova-Valverde",
+  "author": "Tatiana Valverde",
   "dependencies": {
     "cypress": "^12.16.0",
     "cypress-real-events": "^1.8.1"
