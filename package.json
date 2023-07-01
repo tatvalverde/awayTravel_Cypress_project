@@ -1,0 +1,17 @@
+{
+  "name": "awaytravel_cypress_project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TatianaNaumova5/awayTravel_Cypress_project.git"
+  },
+  "author": "Tatiana Naumova-Valverde",
+  "dependencies": {
+    "cypress": "^12.16.0",
+    "cypress-real-events": "^1.8.1"
+  }
+}
