@@ -121,7 +121,6 @@ describe(`Testing Chicago store`, function () {
             .should(`eq`, `80`)
         cy.get(`div[class^="store_location_messages_tiles"] svg`).eq(2).invoke(`attr`, `width`)
             .should(`eq`, `80`)
-
     })
 })
 
@@ -130,7 +129,6 @@ describe(`Testing Gallery`, function () {
         cy.visit(`/stores/austin`)
 
         //preparation to test# 9.2
-
         //get first alias
         cy.get(`[class="swiper-wrapper"]`).invoke(`attr`, `style`).as(`pic1`)
         //change the picture
@@ -162,8 +160,6 @@ describe(`Testing Gallery`, function () {
     })
 
 })
-
-
 describe(`Check the map and address areas`, function () {
     before(function () {
         cy.visit(`/stores/austin`)
